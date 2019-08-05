@@ -18,7 +18,7 @@ class Game
     when @hand2.include?("rock") && @hand1.include?("scissors")
       return "Rock"
     when @hand2.include?("paper") && @hand1.include?("rock")
-      return "Papers"
+      return "Paper"
     when @hand2.include?("scissors") && @hand1.include?("paper")
       return "Scissors"
     end

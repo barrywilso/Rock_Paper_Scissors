@@ -7,8 +7,8 @@ get '/' do
   erb(:home)
 end
 
-get '/about' do
-erb(:about)
+get '/Welcome' do
+  erb(:Welcome)
 end
 
 get '/play/:hand1/:hand2' do
